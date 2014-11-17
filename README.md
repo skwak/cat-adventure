@@ -1,6 +1,6 @@
 #Cat Adventure
 
-![Starbuck is adorable](../starbuck.png)
+![Starbuck is adorable](https://github.com/shanghaiellen/cat-adventure/blob/master/starbuck.png)
 
 Oh no! Brave Starbuck is stuck in the living room! There are dogs
 everywhere and she needs to escape to the upstairs bedroom, where
