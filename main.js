@@ -51,8 +51,8 @@ var bedroom = new Room(
 $(document).ready(function(){
   // should be replaced with your beginning/end game logic
   // while (true) {
-    $("#kitchen").click(function() {
-      alert( kitchen.getDescription() );
+    $("#dining-room").click(function() {
+      alert( dining_room.getDescription() );
     });
 
     $("#living-room").click(function() {
