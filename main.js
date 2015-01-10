@@ -6,7 +6,7 @@ var Room = function (new_name, new_description, new_exits, new_points) {
   this.exits = new_exits;
   this.points = new_points;
   this.getDescription = function(){
-    return this.name + ": " + this.description
+    return this.name + ": " + this.description;
   };
 };
 
