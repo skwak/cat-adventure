@@ -4,15 +4,16 @@
     <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="main.js"></script>
   </head>
-  <body>
+  <body ng-app>
     <!-- this should update as Starbuck moves -->
     <h1>Oh no! Starbuck is trapped in the kitchen!</h1>
-    <div class="options">
+    <div class="options" ng-init="points=5">
       <!-- this should update as Starbuck gains/loses escape points -->
-      <div>Starbuck has 5 escape points</div>
+      <div>Starbuck has {{ points }} escape points</div>
       <!-- these options should update as she moves to/from different rooms -->
       <div>
-        <span class="run">Run towards the dining room</span> 
+    
+        <span class="run" id="run-dining-room" ng-click="points=points-4">Run towards the dining room</span> 
         <span class="look" id="dining-room">Look at the dining room</span>
       </div>
       <div>

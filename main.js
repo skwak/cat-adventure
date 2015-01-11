@@ -1,5 +1,5 @@
 // Write a cat model HERE!
-
+// var Cat = 
 var Room = function (new_name, new_description, new_exits, new_points) {
   this.name = new_name;
   this.description = new_description;
@@ -53,9 +53,15 @@ $(document).ready(function(){
     $("#dining-room").click(function() {
       alert( dining_room.getDescription() );
     });
-
+    
+    $("#run-dining-room").click(function() {
+      alert( "Oh crap. You shouldn't have gone there.")
+    });
+    
     $("#living-room").click(function() {
       alert( living_room.getDescription() );
     });
+    
+    $("")
     // Add more!
 });
